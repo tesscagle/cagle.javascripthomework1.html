@@ -18,19 +18,21 @@ console.log(hello('Rachel'))
 function hello(name) {
   return 'Hello,' + ' ' + name;
 }
-
 hello(name);
 console.log(hello(name));
 
 function finalScore(home, away) {
-if(home > away){
+if(home > away) {
   console.log('The home team won.');
 }
-else if(home === away){
+else if(home === away) {
 console.log('The teams tied.');
 }
 else(home < away)
 console.log('The away team won.');
 }
 
+finalScore(4,5);
+finalScore(5,4);
+finalScore(5,5); 
 </script>
